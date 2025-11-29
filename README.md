@@ -105,3 +105,38 @@ assignment/
   - **`slices/`** - Redux slices for auth and onboarding state management
 - **`src/`** - Root source files (App, main entry point, styles)
 
+## Future Improvements
+
+Here are some potential enhancements that could be made to improve the application:
+
+### Storage & Persistence
+- **IndexedDB Integration**: Replace localStorage with IndexedDB for better storage capacity and structured data management, especially for larger datasets like favorite songs
+- **Backend API Integration**: Connect to a real backend API for authentication, data persistence, and user management
+
+### Authentication & Security
+- **Real Authentication**: Integrate with authentication providers (OAuth, JWT tokens, etc.)
+- **Password Security**: Implement proper password hashing and validation
+- **Session Management**: Add token refresh and session timeout handling
+- **Input Sanitization**: Add XSS protection and input validation
+
+### User Experience
+- **Form Validation**: Enhanced validation with better error messages and real-time feedback
+- **Loading States**: Add loading indicators and skeleton screens
+- **Error Handling**: Comprehensive error boundaries and user-friendly error messages
+- **Accessibility**: Improve ARIA labels, keyboard navigation, and screen reader support
+- **Responsive Design**: Enhanced mobile responsiveness and tablet optimization
+- **Animations**: Add smooth transitions and micro-interactions
+
+
+### Performance
+- **Code Splitting**: Implement lazy loading for routes and components
+- **Image Optimization**: Compress and optimize profile pictures
+- **Memoization**: Add React.memo and useMemo for performance optimization
+
+### Features
+- **Profile Picture Cropping**: Add image cropping functionality before upload
+- **Payment Validation**: Integrate with payment validation services (e.g., Stripe)
+- **Data Export**: Allow users to export their onboarding data
+- **Multi-language Support**: Add i18n for internationalization
+- **Dark Mode**: Implement theme switching functionality
+
